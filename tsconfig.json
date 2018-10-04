@@ -1,0 +1,16 @@
+{
+  "compileOnSave": false,
+  "module": "esnext",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "typeRoots": ["node_modules/@types", "src/typings.d.ts"],
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es5",
+    "lib": ["es2017", "dom"]
+  }
+}
